@@ -1,0 +1,27 @@
+11.Find gcd of two
+numbers using for loop
+and if statement
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println(&quot;Enter first
+number:&quot;);
+int a=sc.nextInt();
+
+System.out.println(&quot;Enter second
+number:&quot;);
+int b=sc.nextInt();
+int GCD=1;
+for(int i=1;i&lt;=a&amp;&amp;i&lt;=b;i++)
+{
+if(a%i==0&amp;&amp;b%i==0)
+GCD=i;
+}
+System.out.println(&quot;GCD of two
+entered number is:&quot;+ GCD);
+
+}
+
+}
