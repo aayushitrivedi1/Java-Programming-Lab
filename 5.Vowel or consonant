@@ -1,0 +1,19 @@
+5.Vowel or consonant
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println(&quot;Enter a
+character:&quot;);
+char ch;
+ch=sc.next().charAt(0);
+
+if(ch==&#39;a&#39;||ch==&#39;e&#39;||ch==&#39;i&#39;||ch==&#39;o&#39;||c
+h==&#39;u&#39;||ch==&#39;A&#39;||ch==&#39;E&#39;||ch==&#39;I&#39;||
+ch==&#39;O&#39;||ch==&#39;U&#39;)
+System.out.println(&quot;Vowel&quot;);
+else
+System.out.println(&quot;Consonant&quot;);
+}
+}
