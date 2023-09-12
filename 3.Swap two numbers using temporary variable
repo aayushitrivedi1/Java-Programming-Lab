@@ -1,0 +1,24 @@
+3.Swap two numbers using temporary
+variable
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+
+Scanner sc=new Scanner(System.in);
+System.out.println(&quot;Enter first
+number:&quot;);
+int a=sc.nextInt();
+System.out.println(&quot;Enter second
+number:&quot;);
+int b=sc.nextInt();
+int c;
+c=a;
+a=b;
+b=c;
+System.out.println(&quot;After Swapping :&quot;);
+System.out.println(&quot;First no. is-&quot;+a);
+System.out.println(&quot;Second no. is-&quot;+b);
+
+}
+}
