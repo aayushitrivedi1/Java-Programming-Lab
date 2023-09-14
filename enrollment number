@@ -13,7 +13,7 @@ int i=sc.nextInt();
 String year=String.valueOf(i);
 System.out.println("Enter enrollement no");
 
-String enrollement =sc.nextLine();
+String enrollement =sc1.nextLine();
 String e=enrollement.substring(1,4);
 
 String joinedString=(name.concat(year)).concat(enrollement);
