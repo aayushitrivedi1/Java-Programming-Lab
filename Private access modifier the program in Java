@@ -1,0 +1,11 @@
+public class MyClass {  private int privateVariable;  public MyClass(int value) {  this.privateVariable = value; 
+ } 
+ private void privateMethod() { 
+ System.out.println("Inside privateMethod"); 
+ System.out.println("privateVariable: " + privateVariable); 
+ } 
+ public void publicMethod() { 
+ System.out.println("AAYUSHI TRIVEDI");  System.out.println("Inside publicMethod");  privateMethod(); 
+ } 
+ public static void main(String[] args) {  MyClass myObject = new MyClass(42);  myObject.publicMethod(); 
+ }} 
