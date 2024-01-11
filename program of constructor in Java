@@ -1,0 +1,15 @@
+public class ConstructorExample {  private int value;  public ConstructorExample() { 
+ System.out.println("AAYUSHI TRIVEDI");  
+System.out.println("0827CI221005");
+System.out.println("Default constructor called");  value = 0; 
+ } 
+ public ConstructorExample(int initValue) { 
+ System.out.println("Parameterized constructor called");  value = initValue; 
+ } 
+ public void displayValue() { 
+ System.out.println("Value: " + value); 
+ } 
+ public static void main(String[] args) { 
+ ConstructorExample obj1 = new ConstructorExample();  obj1.displayValue();  
+ } 
+} 
