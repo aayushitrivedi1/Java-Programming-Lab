@@ -1,0 +1,7 @@
+class WrapperExample2{  public static void main(String args[]){ 
+ //converting integer to integer  Integer a= new Integer(3);  int i=a.intValue();  int j=a; 
+ System.out.println("AAYUSHI TRIVEDI"); 
+System.out.println("0827CI221005");
+ System.out.println(a+" "+i+" "+j); 
+ } 
+} 
