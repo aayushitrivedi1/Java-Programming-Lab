@@ -1,0 +1,17 @@
+class MyBaseClass {   protected int protectedVariable;   protected void protectedMethod() {  
+ System.out.println("Inside protectedMethod");  
+ System.out.println("protectedVariable: " + protectedVariable);  
+ }  
+ public MyBaseClass(int value) {   this.protectedVariable = value;  
+ }  
+}  
+public class MyDerivedClass extends MyBaseClass {   public MyDerivedClass(int value) {   super(value);  
+ }  
+ public void publicMethod() {  
+ System.out.println("AAYUSHI TRIVEDI");  
+ System.out.println("Inside publicMethod of MyDerivedClass");   protectedMethod();  
+ }  
+ public static void main(String[] args) {  
+ MyDerivedClass myObject = new MyDerivedClass(42);   myObject.publicMethod(); 
+ System.out.println("protectedVariable accessed from MyDerivedClass: " + myObject.protectedVariable);} 
+} 
