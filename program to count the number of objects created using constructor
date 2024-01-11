@@ -1,0 +1,11 @@
+public class Swap{  static int count;  Swap(){  count++; 
+ } 
+ public static void main(String[] args){ 
+ Swap s1 = new Swap(); 
+ Swap s2 = new Swap(); 
+ Swap s3 = new Swap(); 
+ System.out.println("AAYUSHI TRIVEDI");
+System.out.println("0827CI221005"); 
+ System.out.println(count); 
+ } 
+} 
