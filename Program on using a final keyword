@@ -1,0 +1,8 @@
+class Main{ 
+ public static void main(String[] args){  //create a final variable  final int AGE =23; 
+ //try to change the final vaariable 
+ System.out.println("AAYUSHI TRIVEDI");
+System.out.println("0827CI221005"); 
+ System.out.println("age"+AGE); 
+ } 
+} 
