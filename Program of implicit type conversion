@@ -1,0 +1,8 @@
+Program of implicit type conversion Program: // AAYUSHI TRIVEDI 
+public class ImplicitTypeConversionExample {  public static void main(String[] args) {  int intValue = 5;  double doubleValue = intValue; 
+ System.out.println("Aayushi Trivedi"); 
+System.out.println("0827CI221005");
+ System.out.println("Int Value: " + intValue);  System.out.println("Double Value: " + doubleValue);  char charValue = 'A';  int intValue2 = charValue;  
+ System.out.println("Char Value: " + charValue); 
+ System.out.println("Int Value 2: " + intValue2); 
+ } }  
